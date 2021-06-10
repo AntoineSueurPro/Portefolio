@@ -2,62 +2,50 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-}
-
-.skillsCard {
-    color: #7510F7;
-    font-weight: bold;
-}
-
-a {
-    color: #7510F7;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 li {
-    color: #7510F7;
     list-style: none;
-}
-
-.passion, .realisation, .contact {
-    background-color: #7510F7;
-    color: #FFFFFF;
-}
-
-
-
-
-.photo {
-    border: 1px solid #7510F7;
-}
-
-.mycolor {
-    color: #7510F7;
-}
-.myColorDrago {
-    color: #7510F7;
-    font-size: 28px;
 }
 
 .textColor {
     color: #3a3a3a;
 }
 
-footer {
-    color: white;
-    background-color: #7510f7;
-    font-weight: bold;
-    text-align: center;
-    border-top: 1px solid #3a3a3a;
-    padding-top: 10px;
+.myColor {
+    color: #7510F7 !important;
 }
 
-.nav-item a {
-    color: #7510f7 !important;
+.bgPerso {
+    background-color: #7510F7;
+    color: #FFFFFF;
+}
+
+.btn:visited,
+.btn:hover {
+    color: #ffffff;
+}
+
+.menuFix {
+    margin-top: 75px;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+.photo {
+    border: 2px solid #7510F7 !important;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     box-shadow: none;
+}
+
+.interetCard {
+    width: 20%;
+    margin-top: 20px;
 }
