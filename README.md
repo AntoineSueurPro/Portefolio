@@ -1,11 +1,12 @@
-# Portefolio
+# Portfolio
 
 Intgration maquette Portfolio
-LIEN DU PROJET : https://portefolio.antoine-sueur.com/
+
+Lien du projet : https://portefolio.antoine-sueur.com/
 
 - HTML
 - CSS
 - Bootstrap
-- Fontawesome
+- FontAwesome
 
-En cours de réalisation
+En cours de réalisation 
