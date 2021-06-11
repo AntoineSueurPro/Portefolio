@@ -22,8 +22,12 @@ li {
     color: #FFFFFF;
 }
 
-.btn:visited,
+.btn:visited {
+    color: #ffffff;
+}
+
 .btn:hover {
+    background-color: #8A33F7;
     color: #ffffff;
 }
 
@@ -49,3 +53,69 @@ li {
     width: 20%;
     margin-top: 20px;
 }
+
+/* .goUp {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    -webkit-animation: shake-vertical 3s ease-out infinite both;
+	animation: shake-vertical 3s ease-out infinite both;
+}
+
+@-webkit-keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+              transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+              transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+              transform: translateY(-6.4px);
+    }
+  }
+  @keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+              transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+              transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+              transform: translateY(-6.4px);
+    }
+  }
+   */

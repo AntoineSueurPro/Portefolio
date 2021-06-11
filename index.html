@@ -20,7 +20,7 @@
         <nav class="navbar fixed-top bg-white navbar-expand-lg navbar-light mb-5">
             <div class="container">
                 <div class="ms-lg-5">
-                    <a href="#accueil"> <img src="image/logo.png" alt="logo du site"></a>
+                    <a href="#"> <img src="image/logo.png" alt="logo du site"></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
                     aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link myColor" href="#accueil">Accueil</a>
+                            <a class="nav-link myColor" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link myColor" href="#skills">Compétences</a>
@@ -53,6 +53,7 @@
     </header>
     <main>
         <section class="container menuFix">
+            <!-- <i class="fas fa-hand-point-up myColor fs-1 goUp d-none d-xl-inline"></i> -->
             <div class="p-3 text-center textColor m-auto">
                 <div class="photo_profil container">
                     <img class="rounded-circle photo d-lg-none mb-2 w-50" src="image/photo.jpg"
@@ -94,26 +95,25 @@
                     <h3><i class="fas fa-graduation-cap myColor"></i> Diplome</h3>
                     <p class="fw-bold">Dévoloppeur Web et Web Mobile - Titre RNCP niveau.5 (Bac+2)</p>
                 </div>
-                <div lcass="col-lg-2"></div>
+                <div class="col-lg-2"></div>
             </div>
             <div class="d-lg-flex flex-lg-row justify-content-lg-evenly">
                 <div class="border rounded p-3 shadow mb-4">
                     <h3><i class="fas fa-code myColor"></i> Front-End</h3>
-                    <p>Donnez vie à vos maquettes ou vos idées !</p>
+                    <p>Intégration - Framework - Responsive</p>
                     <p class="myColor fw-bold">Html - Css - Sass - Bootstrap - Javascript</p>
                 </div>
 
                 <div class="border rounded p-3 shadow mb-4 me-lg-4 ms-lg-4">
                     <h3><i class="fas fa-server myColor"></i> Back-End</h3>
-                    <p>Envie d'un site web dynamique avec gestion de données ?</p>
+                    <p>BDD - MVC - Api REST</p>
                     <p class="myColor fw-bold">PHP - MySQL - Symfony - Wordpress</p>
                 </div>
 
                 <div class="border rounded p-3 shadow mb-4">
-                    <h3><i class="fas fa-hands-helping myColor"></i> <span class="d-lg-none"> Gestion de projet &
-                        </span>Travail collaboratif</h3>
-                    <p>"Seul on va vite, emsemble on va loin"</p>
-                    <p class="myColor fw-bold">Git - Trello - Methode Scrum & Agile</p>
+                    <h3><i class="fas fa-hands-helping myColor"></i> Workflow</h3>
+                    <p>Travail collaboratif - Gestion de projet</p>
+                    <p class="myColor fw-bold">VsCode - Git - Trello - Scrum - Agile</p>
                 </div>
             </div>
 
@@ -180,55 +180,54 @@
             </div>
         </section>
         <section class="p-5" id="interet">
-            <div class="p-xl-5">
-                <h2 class="text-center textColor">Centres d'interêts</h2>
-                <p class="text-center w-75 textColor m-auto mb-4">"Un mélange heureux de
-                    loisir
-                    et
-                    d'occupation
-                    rend
-                    l'homme
-                    animé et
-                    sensible à
-                    tous les plaisirs"</p>
-                <div class="border rounded col-10 offset-1 p-3 shadow mb-4 fw-bold d-lg-none">
-                    <p><i class="fas fa-coffee myColor me-1"></i> Café</p>
-                    <p><i class="fas fa-rocket myColor me-1"></i> Espace</p>
-                    <p><i class="fas fa-book myColor me-1"></i> Science-Fiction</p>
-                    <p><i class="fas fa-lightbulb myColor me-1"></i> Nouvelles technologies</p>
-                    <p><i class="fas fa-gamepad myColor me-1"></i> Jeux vidéos - Pop culture</p>
-                </div>
-                <div class="col-1 d-lg-none"></div>
-                <div class=" d-none d-lg-flex row">
-                    <div
-                        class="d-lg-flex text-center justify-content-around col-8 offset-2 border rounded-3 shadow-lg align-items-center fs-6 fw-bold mt-4">
-                        <div class="interetCard p-3">
-                            <p><i class="fas fa-coffee myColor fs-1"></i></p>
-                            <p>Café</p>
-                        </div>
-                        <div class="interetCard p-3">
-                            <p><i class="fas fa-rocket myColor fs-1"></i></p>
-                            <p>Espace</p>
-                        </div>
-                        <div class="interetCard p-3">
-                            <p><i class="fas fa-book myColor fs-1"></i></p>
-                            <p>Science-Fiction</p>
-                        </div>
-                        <div class="interetCard p-3">
-                            <p><i class="fas fa-lightbulb myColor fs-1"></i></p>
-                            <p>Nouvelles technologies</p>
-                        </div>
-                        <div class="interetCard p-3">
-                            <p><i class="fas fa-gamepad myColor fs-1"></i></p>
-                            <p>Jeux vidéo - Pop Culture</p>
-                        </div>
+            <h2 class="text-center textColor">Centres d'interêts</h2>
+            <p class="text-center w-75 textColor m-auto mb-4">"Un mélange heureux de
+                loisir
+                et
+                d'occupation
+                rend
+                l'homme
+                animé et
+                sensible à
+                tous les plaisirs"</p>
+            <div class="border rounded col-10 offset-1 p-3 shadow mb-4 fw-bold d-lg-none">
+                <p><i class="fas fa-coffee myColor me-1"></i> Café</p>
+                <p><i class="fas fa-rocket myColor me-1"></i> Espace</p>
+                <p><i class="fas fa-book myColor me-1"></i> Science-Fiction</p>
+                <p><i class="fas fa-lightbulb myColor me-1"></i> Nouvelles technologies</p>
+                <p><i class="fas fa-gamepad myColor me-1"></i> Jeux vidéos - Pop culture</p>
+            </div>
+            <div class="col-1 d-lg-none"></div>
+            <div class=" d-none d-lg-flex row">
+                <div
+                    class="d-lg-flex text-center justify-content-around col-8 offset-2 border rounded-3 shadow-lg align-items-center fs-6 fw-bold mt-4">
+                    <div class="interetCard p-3">
+                        <p><i class="fas fa-coffee myColor fs-1"></i></p>
+                        <p>Café</p>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="interetCard p-3">
+                        <p><i class="fas fa-rocket myColor fs-1"></i></p>
+                        <p>Espace</p>
+                    </div>
+                    <div class="interetCard p-3">
+                        <p><i class="fas fa-book myColor fs-1"></i></p>
+                        <p>Science-Fiction</p>
+                    </div>
+                    <div class="interetCard p-3">
+                        <p><i class="fas fa-lightbulb myColor fs-1"></i></p>
+                        <p>Nouvelles technologies</p>
+                    </div>
+                    <div class="interetCard p-3">
+                        <p><i class="fas fa-gamepad myColor fs-1"></i></p>
+                        <p>Jeux vidéo - Pop Culture</p>
+                    </div>
                 </div>
+                <div class="col-2"></div>
+            </div>
         </section>
-        <section class="bgPerso container rounded shadow p-5 text-center" id="contact">
+        <section class="bgPerso container rounded-top p-5 text-center" id="contact">
             <h3>Contactez-moi !</h3>
-            <p class="mb-4">Pour toute demande d'information ou si mon profil vous intéresse.</p>
+            <p class="mb-4">Pour toute demande d'informations ou si mon profil vous intéresse.</p>
             <form class="border rounded w-75 m-auto p-3 shadow bg-white textColor">
                 <div class="form-group">
                     <label class="fw-bold" for="mail">Email</label>
@@ -246,7 +245,8 @@
             </form>
         </section>
     </main>
-    <footer class="textColor fw-bold text-center p-2">© 2021 All rights reserved | Antoine Sueur | Developpeur Web &
+    <footer class="textColor fw-bold text-center p-2">© 2021 All rights reserved | Antoine Sueur | Developpeur
+        Web &
         Web Mobile</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
