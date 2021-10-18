@@ -9,5 +9,7 @@ Lien du projet : https://portfolio.antoine-sueur.com/
 - Bootstrap
 - FontAwesome
 - Javascript
+- PHP
+- PHP Mailer
 
 En cours de réalisation 
