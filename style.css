@@ -55,15 +55,15 @@ li {
 }
 
 @keyframes pulse {
-	0% {	
-		box-shadow: 0 0 0 0 rgba(116, 16, 247, 0.7);
-	}
-	70% {	
-		box-shadow: 0 0 0 10px rgba(116, 16, 247, 0);
-	}
-	100% {	
-		box-shadow: 0 0 0 0 rgba(116, 16, 247, 0);
-	}
+    0% {
+        box-shadow: 0 0 0 0 rgba(116, 16, 247, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(116, 16, 247, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(116, 16, 247, 0);
+    }
 }
 
 #goUp {
@@ -78,4 +78,20 @@ li {
     text-align: center;
     border-radius: 5%;
     display: none;
+}
+
+#btnContact {
+    animation: pulse 2s infinite;
+}
+
+@media screen and (min-width: 992px) {
+    .contact {
+        width: 45%;
+        font-size: 20px;
+    }
+
+    .metierp {
+        width: 75%;
+        margin: auto;
+    }
 }
