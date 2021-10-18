@@ -1,4 +1,5 @@
-
+<?php
+require_once 'mailer.php';?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -234,32 +235,36 @@
     <section class="bgPerso container rounded-top p-5 text-center" id="contact">
         <h3>Contactez-moi !</h3>
         <p class="mb-4">Pour toute demande d'informations ou si mon profil vous intéresse.</p>
-        <div class="mt-5 container bg-white shadow textColor rounded p-5 contact fw-bold">
-            <div class="">
-                <p><i class="fas fa-envelope fs-2 myColor"></i></p>
-                <p>antoine.sueur17@gmail.com</p>
-            </div>
-            <div class="">
-                <p><i class="fas fa-phone-alt fs-2 myColor"></i></p>
-                <p>07 82 03 44 90</p>
-            </div>
-        </div>
-        <!-- <div><i class="fas fa-phone-alt"></i></div><div> 07 82 03 44 90</div> -->
-        <!--<form class="border rounded w-75 m-auto p-3 shadow bg-white textColor">
+<!--        <div class="mt-5 container bg-white shadow textColor rounded p-5 contact fw-bold">-->
+<!--            <div class="">-->
+<!--                <p><i class="fas fa-envelope fs-2 myColor"></i></p>-->
+<!--                <p>antoine.sueur17@gmail.com</p>-->
+<!--            </div>-->
+<!--            <div class="">-->
+<!--                <p><i class="fas fa-phone-alt fs-2 myColor"></i></p>-->
+<!--                <p>07 82 03 44 90</p>-->
+<!--            </div>-->
+<!--        </div>-->
+        <form class="border rounded w-75 m-auto p-3 shadow bg-white textColor" action="" method="POST">
+            <?= isset($message) ? $message : ''?>
             <div class="form-group">
-                <label class="fw-bold" for="mail">Email</label>
-                <input type="email" class="form-control" id="mail">
+                <label class="fw-bold" for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
             </div>
             <div class="form-group">
                 <label class="fw-bold" for="nom">Nom & Prénom</label>
-                <input type="text" class="form-control" id="nom">
+                <input type="text" class="form-control" id="nom" name="nom">
+            </div>
+            <div class="form-group">
+                <label class="fw-bold" for="objet">Objet</label>
+                <input type="text" class="form-control" id="objet" name="objet">
             </div>
             <div class="form-group">
                 <label class="fw-bold" for="message">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
             </div>
-            <button class="btn bgPerso mt-3" type="submit">Envoyer</button>
-        </form> -->
+            <input class="btn bgPerso mt-3" type="submit" value="Envoyer">
+        </form>
     </section>
     <a href="#" id="goUp"><i class=" fas fa-angle-double-up"></i></a>
 </main>
