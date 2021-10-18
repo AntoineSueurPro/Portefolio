@@ -248,21 +248,22 @@ require_once 'mailer.php';?>
         <form class="border rounded w-75 m-auto p-3 shadow bg-white textColor" action="" method="POST">
             <?= isset($message) ? $message : ''?>
             <div class="form-group">
-                <label class="fw-bold" for="email">Email</label>
-                <input type="email" class="form-control" name="email" id="email">
+                <label class="fw-bold" for="email">Email<span class="text-danger"> *</span></label>
+                <input type="email" class="form-control" name="email" id="email" required>
             </div>
             <div class="form-group">
-                <label class="fw-bold" for="nom">Nom & Prénom</label>
-                <input type="text" class="form-control" id="nom" name="nom">
+                <label class="fw-bold" for="nom">Nom<span class="text-danger"> *</span></label>
+                <input type="text" class="form-control" id="nom" name="nom" min="2" required>
             </div>
             <div class="form-group">
                 <label class="fw-bold" for="objet">Objet</label>
                 <input type="text" class="form-control" id="objet" name="objet">
             </div>
             <div class="form-group">
-                <label class="fw-bold" for="message">Message</label>
-                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                <label class="fw-bold" for="message">Message<span class="text-danger"> *</span></label>
+                <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
             </div>
+            <p class="text-danger text-start fw-bold requis mt-2">* Obligatoire</p>
             <input class="btn bgPerso mt-3" type="submit" value="Envoyer">
         </form>
     </section>
@@ -271,7 +272,7 @@ require_once 'mailer.php';?>
 <footer class="textColor fw-bold text-center p-2">© 2021 All rights reserved | Antoine Sueur | Developpeur
     Web &
     Web Mobile</footer>
-<script src="main.js"></script>
+<script type="text/javascript" src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
