@@ -46,8 +46,8 @@ if (!empty($_POST)) {
             //Content
             $mail->isHTML(true);
             $mail->Subject = $_POST['objet'];
-            $mail->Body = $_POST['message'];
-            $mail->AltBody = $_POST['message'];
+            $mail->Body = $_POST['message'] . '<br>' . '/!\ Envoyé depuis portfolio - portfolio.antoine-sueur.com /!\ ';
+            $mail->AltBody = $_POST['message'] . 'Envoyé depuis le portfolio - portfolio.antoine-sueur.com';
             $mail->SMTPDebug = 0;
             if ($mail->send()) {
                 $message = '<div class="alert alert-success">Mail envoyé ! Merci pour votre interêt.</div>';
