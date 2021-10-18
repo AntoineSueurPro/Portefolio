@@ -245,7 +245,7 @@ require_once 'mailer.php';?>
 <!--                <p>07 82 03 44 90</p>-->
 <!--            </div>-->
 <!--        </div>-->
-        <form class="border rounded w-75 m-auto p-3 shadow bg-white textColor" action="" method="POST">
+        <form class="border rounded w-75 m-auto p-3 shadow bg-white textColor" action="index.php#contact" method="POST">
             <?= isset($message) ? $message : ''?>
             <div class="form-group">
                 <label class="fw-bold" for="email">Email<span class="text-danger"> *</span></label>
