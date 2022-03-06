@@ -82,10 +82,7 @@ require_once 'mailer.php';?>
                 <p>Passionné par l'informatique, je
                     suis de
                     cette
-                    génération qui a totalement baigné dedans depuis la naissance. Développeur web et web mobile junior,<span class="fw-bold"> je recherche un stage pour la période du 20/12/21 au 04/03/22.</span> Je cherche donc
-                    une structure pour m'épanouir et toujours apprendre plus encore. Ayant une préférence pour le
-                    Backend, les projets PHP/Symfony/Api-Platform ont toute mon attention. Je suis très curieux
-                    d'evoluer sur ces technologies.</p>
+                    génération qui a totalement baigné dedans depuis la naissance. Je suis plutôt orienté Backend mais je suis polyvalent, dans une quête constante d'apprentissage. Vous pouvez consulter mes différents tutoriel sur <a class="text-light fw-bold text-decoration-none" target="_blank" href="https://medium.com/@antoine.sueur17">Medium</a>, d'autres étant en cours d'écriture.
             </div>
         </div>
     </section>
@@ -292,7 +289,7 @@ require_once 'mailer.php';?>
     </section>
     <a href="#" id="goUp"><i class=" fas fa-angle-double-up"></i></a>
 </main>
-<footer class="textColor fw-bold text-center p-2">© 2021 All rights reserved | Antoine Sueur | Developpeur
+<footer class="textColor fw-bold text-center p-2">© 2022 All rights reserved | Antoine Sueur | Developpeur
     Web &
     Web Mobile</footer>
 <script type="text/javascript" src="main.js"></script>
