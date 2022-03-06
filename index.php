@@ -14,6 +14,8 @@ require_once 'mailer.php';?>
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0ce4d10e41.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Antoine Sueur - Developpeur Web</title>
@@ -130,55 +132,76 @@ require_once 'mailer.php';?>
             github
             et un
             lien vers le projet hébergé en ligne.</p>
-        <div class="d-lg-flex flex-lg-row">
-            <div class="row">
-                <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1"
-                     data-aos="zoom-in" data-aos-duration="1000">
-                    <h3>Webagency</h3>
-                    <div>
-                        <img class="w-100" src="image/webagency.png" alt="">
-                    </div>
-                    <p class="mt-3 myColor fw-bold">Html - Css - Media Queries</p>
-                    <div>
-                        <a href="https://github.com/AntoineSueurPro/Projet-HTML-CSS" target="blank"><i
-                                class="fab fa-github fa-2x me-5 textColor"></i></a>
-                        <a href="https://webagency.antoine-sueur.com" target="blank"><i
-                                class="fas fa-globe fa-2x textColor"></i></a>
+        <div class="">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 glide__slide"
+                             data-aos="zoom-in" data-aos-duration="1000">
+                            <h3>Webagency</h3>
+                            <div>
+                                <img class="w-100" src="image/webagency.png" alt="">
+                            </div>
+                            <p class="mt-3 myColor fw-bold">Html - Css - Media Queries</p>
+                            <div>
+                                <a href="https://github.com/AntoineSueurPro/Projet-HTML-CSS" target="blank"><i
+                                            class="fab fa-github fa-2x me-5 textColor"></i></a>
+                                <a href="https://webagency.antoine-sueur.com" target="blank"><i
+                                            class="fas fa-globe fa-2x textColor"></i></a>
+                            </div>
+                        </div>
+                        <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 glide__slide"
+                             data-aos="zoom-in" data-aos-duration="1300">
+                            <h3>Restaurant</h3>
+                            <div>
+                                <img class="w-100" src="image/fiasco.png" alt="">
+                            </div>
+                            <p class="mt-3 myColor fw-bold">Html - CSS - Media Queries</p>
+                            <div>
+                                <a href="https://github.com/AntoineSueurPro/Le_Fiasco" target="blank"><i
+                                            class="fab fa-github fa-2x me-5 textColor"></i></a>
+                                <a href="https://integration.antoine-sueur.com" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
+                            </div>
+                        </div>
+                        <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 "
+                             data-aos="zoom-in" data-aos-duration="1500">
+                            <h3>Blog PHP</h3>
+                            <div>
+                                <img class="w-100" src="image/blog.png" alt="">
+                            </div>
+                            <p class="mt-3 myColor fw-bold">PHP - Composer - MVC - MySQL</p>
+                            <div>
+                                <a href="https://github.com/AntoineSueurPro/CRUD-PHP" target="blank"><i
+                                            class="fab fa-github fa-2x me-5 textColor"></i></a>
+                                <a href="https://projet4.antoine-sueur.com" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
+                            </div>
+                        </div>
+                        <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 "
+                             data-aos="zoom-in" data-aos-duration="1500">
+                            <h3>Data Visualisation</h3>
+                            <div>
+                                <img class="w-100" src="image/datavisualisation.png" alt="">
+                            </div>
+                            <p class="mt-3 myColor fw-bold">PHP - Javascript - API - Tailwind CSS</p>
+                            <div>
+
+                                <a href="https://plebiscit.fr/presidentielle-2022/" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
-            </div>
-            <div class="row">
-                <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1"
-                     data-aos="zoom-in" data-aos-duration="1300">
-                    <h3>Restaurant</h3>
-                    <div>
-                        <img class="w-100" src="image/fiasco.png" alt="">
-                    </div>
-                    <p class="mt-3 myColor fw-bold">Html - CSS - Media Queries</p>
-                    <div>
-                        <a href="https://github.com/AntoineSueurPro/Le_Fiasco" target="blank"><i
-                                class="fab fa-github fa-2x me-5 textColor"></i></a>
-                        <a href="https://integration.antoine-sueur.com" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
-                    </div>
+                <div class="d-flex position-relative justify-content-between" data-glide-el="controls">
+                    <p class="text-light bg-dark p-1 ps-2 pe-2 rounded-circle" data-glide-dir="<">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="18" height="18" viewBox="0 0 24 24">
+                            <path d="M0 12l10.975 11 2.848-2.828-6.176-6.176H24v-3.992H7.646l6.176-6.176L10.975 1 0 12z"></path>
+                        </svg>
+                    </p>
+                    <p class="text-light bg-dark p-1 ps-2 pe-2 rounded-circle" data-glide-dir=">">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="18" height="18" viewBox="0 0 24 24">
+                            <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
+                        </svg>
+                    </p>
                 </div>
-                <div class="col-md-1"></div>
-            </div>
-            <div class="row">
-                <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 "
-                     data-aos="zoom-in" data-aos-duration="1500">
-                    <h3>Blog PHP</h3>
-                    <div>
-                        <img class="w-100" src="image/blog.png" alt="">
-                    </div>
-                    <p class="mt-3 myColor fw-bold">PHP - Composer - MVC - MySQL</p>
-                    <div>
-                        <a href="https://github.com/AntoineSueurPro/CRUD-PHP" target="blank"><i
-                                class="fab fa-github fa-2x me-5 textColor"></i></a>
-                        <a href="https://projet4.antoine-sueur.com" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
             </div>
         </div>
     </section>
@@ -280,6 +303,20 @@ require_once 'mailer.php';?>
 
 <script>
     AOS.init();
+</script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+<script>
+    new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        breakpoints: {
+            540: {
+                perView: 1
+            }
+        }
+    }).mount()
 </script>
 </body>
 
