@@ -166,11 +166,11 @@ require_once 'mailer.php';?>
                             <div>
                                 <img class="w-100" src="image/blog.png" alt="">
                             </div>
-                            <p class="mt-3 myColor fw-bold">PHP - Composer - MVC - MySQL</p>
+                            <p class="mt-3 myColor fw-bold">PHP - Javascript - MVC - MySQL</p>
                             <div>
-                                <a href="https://github.com/AntoineSueurPro/CRUD-PHP" target="blank"><i
+                                <a href="https://github.com/AntoineSueurPro/Blog_MVC" target="blank"><i
                                             class="fab fa-github fa-2x me-5 textColor"></i></a>
-                                <a href="https://projet4.antoine-sueur.com" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
+                                <a href="https://blog.antoine-sueur.com/" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
                             </div>
                         </div>
                         <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 "
