@@ -135,7 +135,7 @@ require_once 'mailer.php';?>
                     <div class="glide__slides">
                         <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 glide__slide"
                              data-aos="zoom-in" data-aos-duration="1000">
-                            <h3>Webagency</h3>
+                            <h3>Intégration HTML/CSS</h3>
                             <div>
                                 <img class="w-100" src="image/webagency.png" alt="">
                             </div>
@@ -149,7 +149,7 @@ require_once 'mailer.php';?>
                         </div>
                         <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 glide__slide"
                              data-aos="zoom-in" data-aos-duration="1300">
-                            <h3>Restaurant</h3>
+                            <h3>Intégration HTML/CSS</h3>
                             <div>
                                 <img class="w-100" src="image/fiasco.png" alt="">
                             </div>
@@ -183,6 +183,18 @@ require_once 'mailer.php';?>
                             <div>
 
                                 <a href="https://plebiscit.fr/presidentielle-2022/" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
+                            </div>
+                        </div>
+                        <div class="border rounded-3 p-3 text-center shadow-lg mb-4 bg-white textColor col-md-10 offset-md-1 "
+                             data-aos="zoom-in" data-aos-duration="1500">
+                            <h3>Theme Wordpress</h3>
+                            <div>
+                                <img class="w-100" src="image/wordpress.png" alt="">
+                            </div>
+                            <p class="mt-3 myColor fw-bold">Wordpress - Stripe - PHP - Javascript</p>
+                            <div>
+
+                                <a href="https://sitecampagne.plebiscit.link/" target="blank"><i class="fas fa-globe fa-2x textColor"></i></a>
                             </div>
                         </div>
                     </div>
